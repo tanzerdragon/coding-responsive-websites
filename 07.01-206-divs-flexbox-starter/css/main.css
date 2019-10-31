@@ -95,52 +95,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*Large Background Image*/
-html {
-  background: url(../img/milan-popovic-drawing-splash.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
 
-   /* set height to 100% - these are important for allowing content to vertically align */
+html {
+  background-color: #fff;
+  height: 100%;
 }
 
 body {
-height: 100%;
-  /* set height to 100% - these are important for allowing content to vertically align */
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 2em;
+  font-size: 1.25em;
+  height: 100%;
 }
 
 .wrapper {
-  /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
+  /*add display:flex and set justify-content to space-between*/
+  font-weight: 700;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  height: 100%;
-  width: 100%;
+  justify-content: space-between;
 }
 
-#content {
-  /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
-  background: #222;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(106, 44, 148, 0.53);
-  color: #fff9d7;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.25em;
+.div-1, .div-2, .div-3 {
+  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  color: #fff;
   line-height: 1.5em;
-  border-radius: 10px;
-  padding: 0px 30px;
-  width: 300px;
-  margin: 10px;
-}
-
-#content p span {
-  font-family: 'Abel', sans-serif;
-  font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.6em;
+  background-color: #f16059;
+  height: 300px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -225,10 +210,6 @@ height: 100%;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
-@media only screen and (min-width: 360px) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
