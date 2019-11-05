@@ -96,18 +96,14 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: rgba(238, 238, 238, 0.81);
-  background: url(../img/milan-popovic-drawing-splash.jpg) no-repeat center center fixed;
-  background-blend-mode: color;
+  background: linear-gradient(to top, rgba(255,255,255,.5), rgba(0,0,0,.8)), url(../img/milan-popovic-drawing-splash.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
 }
 
 body {
   font-family: 'Comfortaa', cursive;
   padding: 0 2em;
   font-size: 1.25em;
-  height: 100%;
   color: #fff;
 }
 
