@@ -96,13 +96,15 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: rgba(238, 238, 238, 0.81);
+  background: url(../img/milan-popovic-drawing-splash.jpg) no-repeat center center fixed;
+  background-blend-mode: color;
+  background-size: cover;
   height: 100%;
-  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Comfortaa', cursive;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
@@ -111,15 +113,16 @@ body {
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  height: auto;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+  height: auto;
   width: 100%;
+  padding: 1%;
+  margin: 5px;
+  font-weight: 900;
 }
 
 header,
@@ -127,8 +130,14 @@ footer,
 main {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
   display: flex;
+  justify-content: flex-start;
+  width: 100%
+  height:auto;
+}
+footer .fa {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 #div-1,
@@ -136,11 +145,14 @@ main {
 #div-3 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: #fff;
+  align-items: flex-start;
+  color: #ccc6cd;
+  opacity: .7;
+  border-radius: 5%;
   line-height: 1.5em;
-  font-size: 1.25em;
-  height: auto;
+  font-size: 1em;
+  height: 300px;
+  padding: 1.5%;
 }
 
 .wrapper span {
@@ -154,6 +166,7 @@ main {
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
+  height: auto;
 }
 
 .flex-items {
@@ -161,12 +174,58 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #36173c;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+}
+
+main span {
+  font-weight: bolder;
+  font-family: 'Playfair Display', serif;
+}
+
+/* add social media icons*/
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #4078c0;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 /* ==========================================================================
@@ -253,16 +312,26 @@ main {
     body {
       padding: 1em;
     }
+    #div-1,
+    #div-2{
+        /* set your flex value to 1 50% */
+        flex: 1 50%;
+        height: auto;
+        margin: 1%;
+    }
+
+    #div-3 {
+      /* set your flex value to 1 100% */
+      flex: 1 100%;
+      height: auto;
+      margin: 1%;
+    }
 }
 
 @media (min-width: 1200px) {
-  #div-1,
-  #div-2{
-      /* set your flex value to 1 50% */
-  }
-
-  #div-3 {
-    /* set your flex value to 1 100% */
+  .flex-items {
+    flex-basis: 30%;
+    border-bottom: none;
   }
 }
 
