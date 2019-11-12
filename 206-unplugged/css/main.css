@@ -97,6 +97,197 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*--------------------- Base Header - Footer Styles -----------------------*/
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /* HEADER STYLES */
+  header {
+
+  }
+
+  header.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  header figure {
+
+  }
+
+  header-divider {
+
+  }
+
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* FOOTER STYLES */
+  footer {
+
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .contact {
+
+  }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*------------------------Mobile Styles - Homepage -------------------------*/
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-flow: row wrap;
+}
+
+main.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Email form */
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.email-field {
+
+}
+
+.button {
+
+}
+
+/* features */
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features-item-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Reviews section */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+article {
+
+}
+
+.photo-caption {
+
+}
+
+/* Copyright */
+.copyright {
+}
+
+/* fontawesome icons */
+.fontawesome-icon {
+
+}
+
+/*----------------------------About Page Styles------------------------------*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+
+}
+
+/*------------------------------Faq Page Styles------------------------------*/
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +454,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
