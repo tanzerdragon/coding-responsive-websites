@@ -97,6 +97,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+   }
+
+
    /*--------------------- Base Header - Footer Styles -----------------------*/
   header,
   footer {
@@ -108,55 +115,58 @@ textarea {
 
   /* HEADER STYLES */
   header {
-
+    padding: 15px 0;
   }
 
-  header.content-wrapper {
+  header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
   }
 
-  header figure {
-
-  }
-
-  header-divider {
-
+  .header-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
   }
 
   header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
   }
 
   header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%
   }
 
   /* FOOTER STYLES */
   footer {
-
+    flex-direction: column;
   }
 
-  .footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  footer p {
+    margin: 0;
   }
 
-  .contact {
+  footer .content-wrapper{
+      width: 55%;
+      margin: 50px 0;
+    }
 
+  footer .contact {
+      margin-bottom: 50px;
   }
 
   footer .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -166,11 +176,16 @@ textarea {
     align-items: center;
   }
 
+  /* Copyright */
+  footer .copyright {
+    margin: 20px 0;
+  }
+
+
   /*------------------------Mobile Styles - Homepage -------------------------*/
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -178,7 +193,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-    flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 main.content-wrapper {
@@ -213,11 +228,24 @@ main.content-wrapper {
   flex-flow: row wrap;
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
+
 .features-item-description {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features article {
+  width: 55%;
+  margin: 30px 0;
+}
+
+.features p {
+  margin: 0;
 }
 
 /* Reviews section */
@@ -226,18 +254,16 @@ main.content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
-article {
-
+.reviews h2 {
+  margin-bottom: 40px;
 }
 
-.photo-caption {
-
-}
-
-/* Copyright */
-.copyright {
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
 /* fontawesome icons */
@@ -266,10 +292,11 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-.contact-content {
-
+.contact-content p {
+  margin: 0;
 }
 
 /*------------------------------Faq Page Styles------------------------------*/
@@ -281,11 +308,19 @@ article {
   flex-flow: row wrap;
 }
 
-.faq-content {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
