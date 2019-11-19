@@ -349,7 +349,13 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
+
+.features i {
+   font-size: 3.75em;
+    margin-bottom: 40px;
+  }
 
 /* Reviews section */
 
@@ -367,11 +373,6 @@ input[type=button] {
 
 .reviews h3 {
   width: 80%;
-}
-
-/* fontawesome icons */
-.fontawesome-icon {
-
 }
 
 /*----------------------------About Page Styles------------------------------*/
@@ -770,7 +771,6 @@ input[type=button] {
       .map figure {
         padding-bottom: 38%;
       }
-
 
       .contact-section .content-wrapper h2 {
         margin-bottom: 40px;
