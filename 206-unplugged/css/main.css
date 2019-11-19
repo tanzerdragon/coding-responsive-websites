@@ -123,13 +123,14 @@ textarea {
  h2 {
    font-family: 'Poppins', sans-serif;
    font-size: 2.25em;
+   font-weight: 500;
  }
 
  h3,
  h4 {
    font-family: 'Poppins', sans-serif;
    font-size: 1.125em;
-   font-weight: lighter;
+   font-weight: 500;
  }
 
  p {
@@ -207,7 +208,8 @@ textarea {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    width: 100%
+    width: 100%;
+    padding: 0;
   }
 
   header nav ul li {
@@ -267,7 +269,7 @@ textarea {
   }
 
   footer .social-icons p i {
-    font-size: 1.875em;
+    font-size: 1.3125em;
   }
 
   /* Copyright */
@@ -387,7 +389,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-  width: 80%;
+  width: 75%;
 }
 
 /*----------------------------About Page Styles------------------------------*/
@@ -599,7 +601,7 @@ input[type=button] {
    aside .content-wrapper {
         margin: 50px 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-flow: row wrap;
     }
 
@@ -755,10 +757,20 @@ input[type=button] {
      max-width: 960px;
    }
 
+   h3, h4 {
+     font-size: 1.875em;
+   }
+
+   p {
+     font-size: 1.125em;
+     line-height: 1.333;
+   }
+
    .hero-area h1 {
      width: 60%;
      font-size: 3.75em;
    }
+
 
    aside .content-wrapper {
         justify-content: space-around;
