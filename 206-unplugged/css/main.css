@@ -231,7 +231,7 @@ textarea {
   }
 
   address {
-    text-align: center;
+    text-align: left;
   }
 
   footer .content-wrapper{
@@ -661,6 +661,10 @@ input[type=button] {
     width: 40%;
   }
 
+  .map figure {
+    padding-bottom: 45%;
+  }
+
   .contact-section {
     display: flex;
     justify-content: center;
@@ -761,6 +765,10 @@ input[type=button] {
       .mission h2,
       .contact-section .content-wrapper h2 {
         width: 100%;
+      }
+
+      .map figure {
+        padding-bottom: 38%;
       }
 
 
