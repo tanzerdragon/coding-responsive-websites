@@ -150,8 +150,7 @@ textarea {
    font-style: normal;
  }
 
-
-   .content-wrapper {
+  .content-wrapper {
      width: 90%;
      margin: 50px 0;
    }
@@ -802,6 +801,10 @@ input[type=button] {
 
     .reviews article div {
         width: 43%;
+    }
+
+    .reviews article {
+      justify-content: space-around;
     }
 
 /* ==========================================================================
